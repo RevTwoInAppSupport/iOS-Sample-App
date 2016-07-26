@@ -1,0 +1,42 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - Firebase (2.5.1)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - libjingle_peerconnection (11177.2.0)
+  - PubNub (4.4.1):
+    - CocoaLumberjack (= 2.3.0)
+    - PubNub/Core (= 4.4.1)
+  - PubNub/Core (4.4.1):
+    - CocoaLumberjack (= 2.3.0)
+  - RevTwo (2.2.0):
+    - Firebase (= 2.5.1)
+    - JSQMessagesViewController
+    - libjingle_peerconnection
+    - PubNub (~> 4.0)
+
+DEPENDENCIES:
+  - RevTwo (from `../RevTwo-iOS-Pod`)
+
+EXTERNAL SOURCES:
+  RevTwo:
+    :path: ../RevTwo-iOS-Pod
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  PubNub: 7c59158178877fed5004df938cd31d030856f54e
+  RevTwo: a8c9e68e3c0fadcd631a818787982b9fb599e368
+
+COCOAPODS: 0.39.0

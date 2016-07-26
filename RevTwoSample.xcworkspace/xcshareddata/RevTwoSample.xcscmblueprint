@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8927628C9CD211496B94197B5CDEF045F82D6532",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C3CCBC554AD3C7018207C16CF8CCE2AACA70735C" : 0,
+    "8927628C9CD211496B94197B5CDEF045F82D6532" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E45B2CB2-B4CA-4CDF-B415-AA5D1771C46D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C3CCBC554AD3C7018207C16CF8CCE2AACA70735C" : "RevTwo-iOS-Pod\/",
+    "8927628C9CD211496B94197B5CDEF045F82D6532" : "iOS-Sample-App\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RevTwoSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RevTwoSample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RevTwoInAppSupport\/iOS-Sample-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8927628C9CD211496B94197B5CDEF045F82D6532"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RevTwoInAppSupport\/RevTwo-iOS-Library.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3CCBC554AD3C7018207C16CF8CCE2AACA70735C"
+    }
+  ]
+}

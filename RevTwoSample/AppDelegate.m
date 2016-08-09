@@ -24,11 +24,10 @@
     R2Initialize(@"ADD YOUR KEY HERE",@"ADD YOUR PRIVATE KEY HERE", R2MODE_DEVELOPMENT);
     
     //customizations
-    Revtwo *customizer = [[Revtwo alloc] init];
-    [customizer R2customize_incomingCall_text:@"Incoming call from RevTwo Support"];
-    [customizer R2customize_incomingCall_textColor:[UIColor whiteColor]];
-    [customizer R2customize_resolvedPopupTitle_text:@"Is your issue resolved?"];
-    [customizer R2customize_resolvedPopupMessage_text:@"Please mark your question resolved if it is"];
+    [R2Customize setIncomingCallText:@"Incoming call from RevTwo Support"];
+    [R2Customize setIncomingCallTextColor:[UIColor whiteColor]];
+    [R2Customize setResolvedPopupTitleText:@"Is your issue resolved?"];
+    [R2Customize setResolvedPopupMessageText:@"Please mark your question resolved if it is"];
     
     //Adding files for file browser
     BOOL success;

@@ -33,6 +33,7 @@
                       nil];
     self.pickedTutorial = NO;
     
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
 }
 -(void)viewDidAppear:(BOOL)animated{

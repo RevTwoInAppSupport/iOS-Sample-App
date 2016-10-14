@@ -21,7 +21,7 @@
     //make sure you run pod install, see our docs for more info:
     // http://revtwo.com/docs/index.php/tutorials/
     /////////////////////////////////////////////////////////////////////////////////
-    R2Initialize(@"ADD YOUR KEY HERE",@"ADD YOUR PRIVATE KEY HERE", R2MODE_DEVELOPMENT);
+    R2Initialize(@"ADD PRODUCT KEY HERE", @"ADD SECRET KEY HERE", R2MODE_DEVELOPMENT, YES);
     
     //customizations
     [R2Customize setIncomingCallText:@"Incoming call from RevTwo Support"];

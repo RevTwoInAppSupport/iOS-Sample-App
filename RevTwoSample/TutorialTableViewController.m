@@ -9,6 +9,7 @@
 #import "TutorialTableViewController.h"
 #import "R2CommunityViewController.h"
 #import "R2MyTicketViewController.h"
+#import "R2FaqTableViewController.h"
 
 
 @interface TutorialTableViewController ()
@@ -30,6 +31,7 @@
                       @"SQLite Database",
                       @"My Tickets View",
                       @"Community Tickets View",
+                      @"FAQ",
                       nil];
     self.pickedTutorial = NO;
     
@@ -113,6 +115,11 @@
             //DatabaseBrowser
             else if ([tutorial isEqualToString:@"SQLite Database"]) {
                 SQLiteBrowserViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DatabaseBrowser"];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+            //FAQ
+            else if ([tutorial isEqualToString:@"FAQ"]) {
+                R2FaqTableViewController *vc = [[R2FaqTableViewController alloc]init];
                 [self.navigationController pushViewController:vc animated:YES];
             }
             else if ([tutorial isEqualToString:@"My Tickets View"]) {

@@ -143,7 +143,7 @@
  */
 // Handle updated push credentials
 - (void)pushRegistry:(PKPushRegistry *)registry didUpdatePushCredentials: (PKPushCredentials *)credentials forType:(NSString *)type {
-    R2UpdatePushCredentials(credentials.token);
+    [Revtwo updatePushToken:credentials.token];
 }
 
 
@@ -151,7 +151,7 @@
 // Handle incoming pushes
 - (void)pushRegistry:(PKPushRegistry *)registry didReceiveIncomingPushWithPayload:(PKPushPayload *)payload forType:(NSString *)type {
     // Process the received push
-    R2ReceivedNotification(payload.dictionaryPayload);
+    [Revtwo handleNotification:payload.dictionaryPayload];
 }
 
 @end

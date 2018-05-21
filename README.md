@@ -13,4 +13,4 @@ To use the sample app, you will need to:
 1. Download the RevTwo CocoaPod by running pod install on this project.
 2. Create an account on [revtwo.com](http://revtwo.com/) and add your api key to the sample app.
 
-see our [tutorial](http://revtwo.com/docs/index.php/tutorials/) for full instructions
+see our [tutorial](https://revtwo.readme.io/docs/getting-started-ios) for full instructions
